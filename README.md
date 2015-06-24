@@ -46,4 +46,4 @@
 
 ###最后要在遵循导航栏的协议
 ```
-self.navigationController.delegate = self;
+self.navigationController.delegate = self; 
