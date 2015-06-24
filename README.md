@@ -55,4 +55,7 @@
 ###最后要在遵循导航栏的协议
 self.navigationController.delegate = self; 
 ```
+####下面是demo的动态截图
 
+![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
+！[](https://github.com/zhangjiang1203/AnimationForPresentAndPop)
