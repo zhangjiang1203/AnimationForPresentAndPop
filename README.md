@@ -57,5 +57,6 @@ self.navigationController.delegate = self;
 ```
 ####下面是demo的动态截图
 
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
-！[](https://github.com/zhangjiang1203/AnimationForPresentAndPop)
+<!--![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)-->
+<!--！[](https://github.com/zhangjiang1203/AnimationForPresentAndPop)-->
+![](https://github.com/zhangjiang1203/AnimationForPresentAndPop/blob/master/animation.gif)
