@@ -17,18 +17,19 @@
 
 ```
 #pragma mark - 跳转开始的动画协议push过去的动画
--(id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source{
+-(id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source{        
     return _animationBase;
 }
 ```
 #pragma mark -pop回来的动画
--(id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed{
+-(id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed{     
+    
     return _animationBase;
     
 }
 
 ```
--(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{
+-(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{           
     
      if ([fromVC isKindOfClass:FirstAnimationViewController.class] && ![toVC isEqual:self]) return nil;
     switch (operation) {
@@ -44,6 +45,7 @@
     return nil;
 }
 
-###最后要在遵循导航栏的协议
+
 ```
 self.navigationController.delegate = self; 
+###最后要在遵循导航栏的协议
