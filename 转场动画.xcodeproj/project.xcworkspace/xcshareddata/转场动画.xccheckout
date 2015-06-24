@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC98796E-66F1-4174-85B5-EF2A8A181E35</string>
+	<key>IDESourceControlProjectName</key>
+	<string>转场动画</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC0A7B3EFA67943C7FCCAC551214809712D1A862</key>
+		<string>https://github.com/zhangjiang1203/AnimationForPresentAndPop.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>转场动画.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC0A7B3EFA67943C7FCCAC551214809712D1A862</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhangjiang1203/AnimationForPresentAndPop.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC0A7B3EFA67943C7FCCAC551214809712D1A862</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC0A7B3EFA67943C7FCCAC551214809712D1A862</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E8%BD%AC%E5%9C%BA%E5%8A%A8%E7%94%BB</string>
+		</dict>
+	</array>
+</dict>
+</plist>
