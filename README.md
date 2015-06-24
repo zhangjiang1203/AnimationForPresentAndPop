@@ -21,6 +21,7 @@
     return _animationBase;
 }
 ```
+```
 #pragma mark -pop回来的动画
 -(id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed{     
     
@@ -29,6 +30,9 @@
 }
 
 ```
+
+```
+#pragma mark -导航栏代理方法
 -(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{           
     
      if ([fromVC isKindOfClass:FirstAnimationViewController.class] && ![toVC isEqual:self]) return nil;
@@ -47,5 +51,8 @@
 
 
 ```
-self.navigationController.delegate = self; 
+```
 ###最后要在遵循导航栏的协议
+self.navigationController.delegate = self; 
+```
+
